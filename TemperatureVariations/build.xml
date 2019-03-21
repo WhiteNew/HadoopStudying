@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<project name="TemperatureVariations" default="CreateJar">
+	<target name="CreateJar" description="Create Jar file">
+		<jar destfile="lib/TemperatureVariations.jar" basedir="bin"
+includes="org/hadooplab/*.class" />
+	</target>
+</project>
